@@ -37,7 +37,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Overview
-
+# NOTE: CODE IS MODIFIED TO SUPPORT UPDATE CONFIG DESCRIPTORS WITH SAME DOMAIN.
 The rate limit service is a Go/gRPC service designed to enable generic rate limit scenarios from different types of
 applications. Applications request a rate limit decision based on a domain and a set of descriptors. The service
 reads the configuration from disk via [runtime](https://github.com/lyft/goruntime), composes a cache key, and talks to the Redis cache. A
